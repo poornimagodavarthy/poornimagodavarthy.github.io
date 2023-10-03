@@ -4,11 +4,28 @@
         <title> contact </title>
     </head>
   <body>
-    <nav>
-        <h1 class="logo"> Poornima Godavarthy</h1>
-        <div class="navbar"></div>
-    </nav>
-    <main>Hello World! This is my website.</main>
+    <nav class="navbar">
+        <h1 class="logo">
+          <a href="index.html">personal website</a>
+        </h1>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    <main>
+        <h1>contact</h1>
+        <form id="contact-form">
+            name: <input type="text" id="name">
+            email: <input type="email" id="email">
+            message: <textarea></textarea>
+            <input type="submit">
+        </form>
+
+    </main>
     <footer class="footer">© 2023 <Poornima Godavarthy> | All Rights Reserved</footer>
   </body>
 </html>
